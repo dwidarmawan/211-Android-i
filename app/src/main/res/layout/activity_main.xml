@@ -15,6 +15,7 @@
         />
 
     <EditText
+        android:id="@+id/namaEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi nama lengkap"
@@ -29,6 +30,7 @@
         />
 
     <EditText
+        android:id="@+id/emailEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi email"
@@ -43,6 +45,7 @@
         />
 
     <EditText
+        android:id="@+id/nomorEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi nomor hp"
@@ -57,6 +60,7 @@
         />
 
     <EditText
+        android:id="@+id/tanggallahirEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi tanggal lahir (dd/MM/yyyy)"
@@ -71,6 +75,7 @@
         />
 
     <EditText
+        android:id="@+id/jumlahmkEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi jumlah mata kuliah"
@@ -85,6 +90,7 @@
         android:gravity="end"
         >
         <Button
+            android:id="@+id/simpanButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Simpan"
@@ -94,6 +100,7 @@
             />
 
         <Button
+            android:id="@+id/batalButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Batal"
