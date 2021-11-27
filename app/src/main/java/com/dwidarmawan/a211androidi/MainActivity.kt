@@ -1,5 +1,6 @@
 package com.dwidarmawan.a211androidi
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -16,18 +17,30 @@ class MainActivity : AppCompatActivity() {
 
         val namaEditText = findViewById<EditText>(R.id.namaEditText)
         val emailEditText = findViewById<EditText>(R.id.emailEditText)
+        val alamatEditText = findViewById<EditText>(R.id.alamatEditText)
         val nomorEditText = findViewById<EditText>(R.id.nomorEditText)
-        val tanggallahirEditText = findViewById<EditText>(R.id.tanggallahirEditText)
-        val jumlahmkEditText = findViewById<EditText>(R.id.jumlahmkEditText)
+        val tanggalLahirEditText = findViewById<EditText>(R.id.tanggalLahirEditText)
+        val jumlahMataKuliahEditText = findViewById<EditText>(R.id.jumlahMataKuliahEditText)
 
         simpanButton.setOnClickListener {
-            namaEditText.setText("")
-            emailEditText.setText("")
-            nomorEditText.setText("")
-            tanggallahirEditText.setText("")
-            jumlahmkEditText.setText("")
-
             Toast.makeText(this,"Data Tersimpan",Toast.LENGTH_SHORT).show()
+
+            val nama = namaEditText.text.toString()
+            val email = emailEditText.text.toString()
+            val alamat = alamatEditText.text.toString()
+            val nomor = nomorEditText.text.toString()
+            val tanggalLahir = tanggalLahirEditText.text.toString()
+            val jumlahMataKuliah = jumlahMataKuliahEditText.text.toString().toInt()
+
+            val intent = Intent(this,HasilMainActivity2::class.java)
+            intent.putExtra("nama", nama)
+            intent.putExtra("email", email)
+            intent.putExtra("alamat", alamat)
+            intent.putExtra("nomor", nomor)
+            intent.putExtra("tanggalLahir", tanggalLahir)
+            intent.putExtra("jumlahMataKuliah", jumlahMataKuliah)
+            startActivity(intent)
+
         }
 
         batalButton.setOnClickListener{

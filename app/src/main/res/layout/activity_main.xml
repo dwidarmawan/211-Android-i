@@ -41,6 +41,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Alamat"
+        />
+
+    <EditText
+        android:id="@+id/alamatEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Isi alamat"
+        android:inputType="text"
+        android:layout_marginBottom="9dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Nomor hp"
         />
 
@@ -60,7 +75,7 @@
         />
 
     <EditText
-        android:id="@+id/tanggallahirEditText"
+        android:id="@+id/tanggalLahirEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi tanggal lahir (dd/MM/yyyy)"
@@ -75,7 +90,7 @@
         />
 
     <EditText
-        android:id="@+id/jumlahmkEditText"
+        android:id="@+id/jumlahMataKuliahEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi jumlah mata kuliah"

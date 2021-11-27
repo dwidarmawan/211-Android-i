@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/abu"
+    tools:context=".HasilMainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/namaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DwiDarmawan"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dwidarmawan@gmail.com"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/alamatTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Komp.Pangeran Antasari"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor hp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/nomorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+62 810 222"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal lahir"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tanggalLahirTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01/01/2001"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah mata kuliah"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/jumlahMataKuliahTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"
+        />
+
+</LinearLayout>
